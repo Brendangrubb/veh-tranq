@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Concerts feature.
+ */
+
+include_once 'concerts.features.inc';

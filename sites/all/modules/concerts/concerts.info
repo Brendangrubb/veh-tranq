@@ -1,0 +1,16 @@
+name = Concerts
+description = A list of upcoming concerts
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = image
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_date
+features[field_base][] = field_details
+features[field_base][] = field_poster
+features[field_instance][] = node-concerts-field_date
+features[field_instance][] = node-concerts-field_details
+features[field_instance][] = node-concerts-field_poster
+features[node][] = concerts
